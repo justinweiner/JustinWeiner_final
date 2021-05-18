@@ -21,6 +21,107 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Article2.jpg" : {
+      "ft" : 16384,
+      "iS" : 74234,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Article2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Article3.jpg" : {
+      "ft" : 16384,
+      "iS" : 77598,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Article3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Article4.jpg" : {
+      "ft" : 16384,
+      "iS" : 58387,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Article4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Article5.jpg" : {
+      "ft" : 16384,
+      "iS" : 124226,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Article5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Euroleague Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Euroleague Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 221605,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/leagueinfo_basket.jpg" : {
+      "ft" : 16384,
+      "iS" : 37181,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/leagueinfo_basket.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Naming Partners.png" : {
+      "ft" : 32768,
+      "iS" : 32631,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Naming Partners.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -54,6 +155,62 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_articles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_articles.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_covidalert.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_covidalert.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_footer.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_header.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_information.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_information.html",
+      "oF" : 0
+    },
+    "\/dev\/HTML\/_stats.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/HTML\/_stats.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -228,6 +385,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -238,7 +414,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "in-class-demo",
+    "displayValue" : "JustinWeiner_project_final",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
