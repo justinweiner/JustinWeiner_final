@@ -365,6 +365,51 @@ ul li {
   list-style: none;
 }
 
+main {
+  display: grid;
+  grid-template-areas: "header" "hero" "covidalert" "articles" "stats" "information" "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.hero {
+  grid-area: hero;
+}
+.hero img {
+  width: 100%;
+}
+.hero ul {
+  display: grid;
+}
+.hero a {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .hero ul {
+    grid-template-columns: repeat(12, 1 fr);
+  }
+}
+
+.covidalert {
+  grid-area: covidalert;
+}
+
+.articles {
+  grid-area: articles;
+}
+.articles ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .articles ul {
+    grid-template-columns: 350px 350px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -383,4 +428,88 @@ p {
 
 .section-title {
   font-weight: 300;
+}
+
+/* =============
+    Buttons
+============= */
+/* =============
+    Forms
+============= */
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+  box-shadow: none;
+}
+
+[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+  box-shadow: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+}
+
+/* =============
+    Navigation
+============= */
+a {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+/* =============
+    Header
+============= */
+header {
+  background: #003399;
+  padding: 10px;
+}
+
+/* =============
+    Footer
+============= */
+.hero-img {
+  background: url("../../../deploy/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .article {
+    width: 75%;
+    margin: 30px auto;
+  }
+}
+
+.article-image {
+  height: 180px;
+}
+
+#article-1 .article-image {
+  background: url("/deploy/img/Article1.jpg") no-repeat;
+  background-size: cover;
+}
+
+#article-2 .article-image {
+  background: url("/deploy/img/Article1.jpg") no-repeat;
+  background-size: cover;
+}
+
+#article-3 .article-image {
+  background: url("/deploy/img/Article3.jpg") no-repeat;
+  background-size: cover;
+}
+
+#article-4 .article-image {
+  background: url("/deploy/img/Article4.jpg") no-repeat;
+  background-size: cover;
+}
+
+#article-5 .article-image {
+  background: url("/deploy/img/Article5.jpg") no-repeat;
+  background-size: cover;
 }

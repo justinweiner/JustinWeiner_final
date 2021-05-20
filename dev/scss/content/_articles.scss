@@ -1,0 +1,40 @@
+.article {
+    @include md{
+        width: 75%;
+        margin: 30px auto;
+    }
+}
+.article-image {
+	height: 180px;
+}
+
+#article-1 {
+	.article-image {
+		background: url("/deploy/img/Article1.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+#article-2 {
+	.article-image {
+		background: url("/deploy/img/Article1.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+#article-3 {
+	.article-image {
+		background: url("/deploy/img/Article3.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+#article-4 {
+	.article-image {
+		background: url("/deploy/img/Article4.jpg") no-repeat;
+		background-size: cover;
+	}
+}
+#article-5 {
+	.article-image {
+		background: url("/deploy/img/Article5.jpg") no-repeat;
+		background-size: cover;
+	}
+}
