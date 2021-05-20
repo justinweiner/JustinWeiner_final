@@ -52,6 +52,9 @@ grid-area: header;
 
 .covidalert{
 	grid-area: covidalert;
+	display: grid;
+	grid-template-columns: 80%;
+	justify-content: center;
 }
 
 
@@ -65,9 +68,22 @@ grid-area: header;
 
 	@include md {
 		ul {
-			grid-template-columns: 350px 350px;
-			grid-gap: 30px;
-			justify-content: center;
+			grid-template-columns: 400px;
+			grid-gap: 0px;
+			justify-content: flex-start;
 		}
+	}
+}
+
+
+.footer {
+	grid-area: footer;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 50px
+	grid-template-areas ".logo .socials";
+
+	.socials ul{
+		display: flex;
+
 	}
 }

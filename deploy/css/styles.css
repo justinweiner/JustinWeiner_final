@@ -394,6 +394,9 @@ main {
 
 .covidalert {
   grid-area: covidalert;
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
 }
 
 .articles {
@@ -404,10 +407,19 @@ main {
 }
 @media (min-width: 768px) {
   .articles ul {
-    grid-template-columns: 350px 350px;
-    grid-gap: 30px;
-    justify-content: center;
+    grid-template-columns: 400px;
+    grid-gap: 0px;
+    justify-content: flex-start;
   }
+}
+
+.footer {
+  grid-area: footer;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 50px grid-template-areas ".logo .socials";
+}
+.footer .socials ul {
+  display: flex;
 }
 
 /* =============
@@ -470,6 +482,15 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background: #003399;
+  padding: 10px;
+}
+footer .social-icon a {
+  color: white;
+  padding: 10px;
+}
+
 .hero-img {
   background: url("../../../deploy/img/hero.jpg");
   background-size: cover;
@@ -478,11 +499,26 @@ header {
   width: 100%;
 }
 
+.covidalert {
+  background: #fff;
+}
+
 @media (min-width: 768px) {
-  .article {
+  .articles {
     width: 75%;
     margin: 30px auto;
   }
+}
+.articles li {
+  background: white;
+}
+.articles li .article-content {
+  padding: 0;
+}
+.articles li button {
+  background: #E8540D;
+  border: none;
+  padding: 5px 20px;
 }
 
 .article-image {
