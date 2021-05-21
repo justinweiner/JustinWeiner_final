@@ -1,13 +1,12 @@
 .stats {
     background: yellow;
     @include md {
-        width: auto;
+        width: 100%;
     }
     li {
         background: white;
-        .article-content {
-            padding: 0;
-            border: $navy;
-        }
+        padding: 3px;
+        border: $navy;
+        justify-content: center;
     }
 }

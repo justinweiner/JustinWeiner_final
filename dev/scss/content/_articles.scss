@@ -1,13 +1,14 @@
 .articles {
-	background: cornflowerblue;
+	background:cadetblue;
 
     @include md{
         width: 100%;
-        margin: 30px auto;
+        margin: 40px auto;
     }
     li {
         .article-content {
             padding: 0;
+			margin: 30px;
         }
         button {
             background: $orange;
@@ -18,5 +19,5 @@
 }
 
 .article-image {
-	width: 100%;
+	width: 1fr;
 }
