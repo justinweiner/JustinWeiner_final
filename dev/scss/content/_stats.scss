@@ -1,0 +1,13 @@
+.stats {
+    background: yellow;
+    @include md {
+        width: auto;
+    }
+    li {
+        background: white;
+        .article-content {
+            padding: 0;
+            border: $navy;
+        }
+    }
+}

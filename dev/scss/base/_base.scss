@@ -19,18 +19,27 @@ main {
 	display: grid;
 	grid-template-areas:
 		"header"
+		"schedule"
 		"hero"
-		"covidalert"
+		"covidalert "
 		"articles"
 		"stats"
-		"information"
-		"footer";
+		"information "
+		"footer ";
 }
 
 .header{
 
 grid-area: header;
+	ul {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+	}
+	a {
+		display: grid;
+	}
 }
+
 .hero {
 	grid-area: hero;
 	img{
@@ -44,10 +53,18 @@ grid-area: header;
 	}
 	@include md {
 		ul {
-			grid-template-columns: repeat(12, 1 fr);
+			grid-template-columns: repeat(5, 1fr);
 		}
 	}
 
+}
+
+.schedule {
+	ul {
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		align-items: space-between;
+	}
 }
 
 .covidalert{
@@ -57,33 +74,69 @@ grid-area: header;
 	justify-content: center;
 }
 
-
+@include md {
+.section-3 {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	}
+}
 
 .articles {
 	grid-area: articles;
+	
 
 	ul {
 		display: grid;
 	}
 
 	@include md {
+		grid-column: 2 / span 5;
 		ul {
 			grid-template-columns: 400px;
 			grid-gap: 0px;
 			justify-content: flex-start;
+			grid-template-areas: 
+			"articles";
+			
+		}
+	}
+}
+.stats {
+	grid-area: stats;
+	ul {
+		display: grid;
+	}
+}
+
+.information {
+	grid-area: information;
+	display: grid;
+	grid-template-columns: 80%;
+	justify-content: center;
+
+	@include md {
+		ul {
+			grid-template-columns: repeat(6, 1fr);
+
+			.photo {
+				grid-column: span 3;
+			}
+			.quote {
+				grid-column: span 3;
+			}
 		}
 	}
 }
 
-
 .footer {
 	grid-area: footer;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 50px
 	grid-template-areas ".logo .socials";
 
 	.socials ul{
 		display: flex;
+	justify-content: flex-end;
 
 	}
 }
