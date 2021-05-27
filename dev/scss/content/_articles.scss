@@ -1,5 +1,6 @@
 .articles {
 	background:cadetblue;
+    color: $navy;
 
     @include md{
         width: 100%;
@@ -11,7 +12,7 @@
 			margin: 30px;
         }
         button {
-            background: $orange;
+            background: $navy;
             border: none;
             padding: auto;
         }
@@ -20,4 +21,8 @@
 
 .article-image {
 	width: 1fr;
+}
+
+#articlesbutton{
+    color: $white;
 }

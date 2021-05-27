@@ -454,6 +454,9 @@ main {
   grid-template-columns: 80%;
   justify-content: center;
 }
+.information #sponsors {
+  width: 100%;
+}
 @media (min-width: 768px) {
   .information ul {
     grid-template-columns: repeat(6, 1fr);
@@ -490,10 +493,19 @@ h4 {
 p {
   margin: 0;
   padding: 0;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .section-title {
   font-weight: 300;
+}
+
+#titillium {
+  font-family: "Titillium Web", sans-serif;
+}
+
+#amaranth {
+  font-family: "Amaranth", sans-serif;
 }
 
 /* =============
@@ -560,10 +572,12 @@ footer .social-icons a {
 
 .covidalert {
   background: red;
+  color: #061026;
 }
 
 .articles {
   background: cadetblue;
+  color: #061026;
 }
 @media (min-width: 768px) {
   .articles {
@@ -576,13 +590,17 @@ footer .social-icons a {
   margin: 30px;
 }
 .articles li button {
-  background: #E8540D;
+  background: #061026;
   border: none;
   padding: auto;
 }
 
 .article-image {
   width: 1fr;
+}
+
+#articlesbutton {
+  color: #fff;
 }
 
 .stats {
@@ -600,12 +618,9 @@ footer .social-icons a {
   justify-content: center;
 }
 
-.information {
-  background: chocolate;
-}
-.information ul .photo {
+.information ul #photo {
   padding: 20px;
 }
-.information ul .quote {
+.information ul #quote {
   padding: 20px;
 }

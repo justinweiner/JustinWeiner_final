@@ -117,6 +117,10 @@ grid-area: header;
 	grid-template-columns: 80%;
 	justify-content: center;
 
+	#sponsors {
+		width: 100%;
+	}
+
 	@include md {
 		ul {
 			grid-template-columns: repeat(6, 1fr);
