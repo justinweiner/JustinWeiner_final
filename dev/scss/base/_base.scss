@@ -37,6 +37,7 @@ grid-area: header;
 	}
 	a {
 		display: grid;
+		color: $white;
 	}
 }
 
@@ -47,14 +48,10 @@ grid-area: header;
 	}
 	ul {
 		display: grid;
+		grid-template-columns: repeat(5, 1fr);
 	}
 	a {
 		display: grid;
-	}
-	@include md {
-		ul {
-			grid-template-columns: repeat(5, 1fr);
-		}
 	}
 
 }
@@ -87,17 +84,43 @@ grid-area: header;
 
 	ul {
 		display: grid;
+		grid-template-areas: 
+		"article-1"
+		"article-2"
+		"article-3"
+		"article-4"
+		"article-5";
 	}
 
 	@include md {
-		grid-column: 2 / span 10;
+		grid-column: 2/ span 10;
 		ul {
 			grid-template-columns: span 10;
 			grid-gap: 0px;
 			justify-content: flex-start;
 			grid-template-areas: 
-			"articles";
+			"article-1"
+			"article-2"
+			"article-3"
+			"article-4"
+			"article-5";
 			
+		}
+
+		#article-1{
+			grid-area: article-1;
+		}
+		#article-2{
+			grid-area: article-2;
+		}
+		#article-3{
+			grid-area: article-3;
+		}
+		#article-4{
+			grid-area: article-4;
+		}
+		#article-5{
+			grid-area: article-5;
 		}
 	}
 }

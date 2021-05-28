@@ -1,12 +1,20 @@
 .stats {
-    background: yellow;
+    color: $navy;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 5px 0;
+
     @include md {
         width: 100%;
     }
+
     li {
-        background: white;
         padding: 3px;
-        border: $navy;
         justify-content: center;
+        p.solid {border-style: solid;}
+
     }
+}
+
+#orangeback {
+    background: rgba($color: $orange, $alpha: 0.2)
 }

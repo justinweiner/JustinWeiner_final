@@ -1,5 +1,4 @@
 .articles {
-	background:cadetblue;
     color: $navy;
 
     @include md{
@@ -9,10 +8,12 @@
     li {
         .article-content {
             padding: 0;
-			margin: 30px;
+			margin: 0 0 30px;
         }
         button {
             background: $navy;
+            width: 90%;
+            justify-content: center;
             border: none;
             padding: auto;
         }
@@ -20,9 +21,52 @@
 }
 
 .article-image {
-	width: 1fr;
+	width: 100%;
 }
 
 #articlesbutton{
     color: $white;
+}
+
+#article-1 {
+    .article-image {
+        background: url("deploy/img/Article1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#article-2 {
+    .article-image {
+        background: url("deploy/img/Article2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#article-3 {
+    .article-image {
+        background: url("deploy/img/Article3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#article-4 {
+    .article-image {
+        background: url("deploy/img/Article4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+#article-5 {
+    .article-image {
+        background: url("deploy/img/Article5.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#hoverarticle{
+    color: $navy;
+    &:hover {
+        color: $orange;
+    }
 }

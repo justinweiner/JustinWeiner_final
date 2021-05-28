@@ -5,3 +5,23 @@
     height: 700%;
     width: 100%;
 }
+
+.hero {
+    ul {
+        color: white;
+        background: $navy;
+
+        
+    }
+    a {
+        color: white;
+        margin: 5px 5px 5px;
+    }
+}
+
+#hover{
+    color: white;
+    &:hover {
+        color: $orange;
+    }
+}
