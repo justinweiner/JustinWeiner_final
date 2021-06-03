@@ -33,7 +33,7 @@ main {
 grid-area: header;
 	ul {
 		display: grid;
-		grid-template-columns: repeat(7, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 	}
 	a {
 		display: grid;

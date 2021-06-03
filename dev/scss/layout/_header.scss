@@ -5,4 +5,14 @@
 header {
     background: $blue;
     padding: 10px;
+
+    #burger-container {
+        align-items: center;
+        display: flex;
+        padding: 10px;
+
+        @include md {
+            display: none !important;
+        }
+    }
 }
