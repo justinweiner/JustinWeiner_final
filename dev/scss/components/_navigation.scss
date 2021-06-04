@@ -6,6 +6,7 @@
 	display: none;
 	width: 100%;
 	position: absolute;
+	align-items: center;
 	top: 118px;
 	.nav-btns {
 		display: inline-block;
@@ -22,7 +23,7 @@
 			background: $orange;
 		}
 	}
-	ul li {
+	ul{
 		text-align: center;
 	}
 	@include md {
@@ -30,7 +31,7 @@
 		display: flex;
 		position: unset;
 		width: auto;
-		justify-content: center;
+		justify-content: flex-end;
 		.nav-btns {
 			color: $white;
 		}

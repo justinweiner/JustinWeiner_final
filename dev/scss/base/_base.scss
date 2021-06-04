@@ -29,8 +29,9 @@ main {
 }
 
 .header{
-
-grid-area: header;
+	display: grid;
+	grid-template-areas: "section div";
+	grid-area: header;
 	ul {
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
@@ -147,24 +148,11 @@ grid-area: header;
 .information {
 	grid-area: information;
 	display: grid;
-	grid-template-columns: 80%;
+	grid-template-columns: 100%;
 	justify-content: center;
 
 	#sponsors {
 		width: 100%;
-	}
-
-	@include md {
-		ul {
-			grid-template-columns: repeat(6, 1fr);
-
-			.photo {
-				grid-column: span 3;
-			}
-			.quote {
-				grid-column: span 3;
-			}
-		}
 	}
 }
 
