@@ -450,6 +450,7 @@ main {
 }
 
 .stats {
+  display: grid;
   grid-area: stats;
 }
 .stats ul {
@@ -459,6 +460,14 @@ main {
   .stats ul {
     grid-column: 1/span;
   }
+}
+.stats #name {
+  grid-area: name;
+  justify-content: flex-start;
+}
+.stats #number {
+  grid-area: number;
+  justify-content: flex-end;
 }
 
 .information {
@@ -573,9 +582,10 @@ textarea {
 @media (min-width: 768px) {
   #nav-container {
     background-color: none;
-    display: block !important;
+    display: flex;
     position: unset;
     width: auto;
+    justify-content: center;
   }
   #nav-container .nav-btns {
     color: #fff;
@@ -597,13 +607,17 @@ header {
   padding: 10px;
 }
 header #burger-container {
+  justify-content: flex-end;
   align-items: center;
   display: flex;
   padding: 10px;
 }
+header #burger-container i {
+  color: #fff;
+}
 @media (min-width: 768px) {
   header #burger-container {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -722,11 +736,19 @@ footer .social-icons a {
 .stats {
   color: #061026;
   font-family: "Titillium Web", sans-serif;
-  margin: 0 5px 0;
+  margin: 0 40px 0 40px;
+}
+.stats section {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+.stats h3 {
+  grid-column: span 2;
 }
 @media (min-width: 768px) {
   .stats {
     width: 100%;
+    margin: 0 40px 0 0;
   }
 }
 .stats li {
@@ -739,6 +761,12 @@ footer .social-icons a {
 
 #orangeback {
   background: rgba(232, 84, 13, 0.2);
+}
+
+#border {
+  border-style: solid;
+  border-color: #061026;
+  margin: 20px 0 20px;
 }
 
 .information ul {

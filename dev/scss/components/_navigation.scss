@@ -27,9 +27,10 @@
 	}
 	@include md {
 		background-color: none;
-		display: block !important;
+		display: flex;
 		position: unset;
 		width: auto;
+		justify-content: center;
 		.nav-btns {
 			color: $white;
 		}

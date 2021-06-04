@@ -125,12 +125,22 @@ grid-area: header;
 	}
 }
 .stats {
+	display: grid;
 	grid-area: stats;
 	ul {
 		display: grid;
 		@include md {
 			grid-column: 1/span;
 		}
+	}
+
+	#name{
+		grid-area: name;
+		justify-content: flex-start;
+	}
+	#number{
+		grid-area: number;
+		justify-content: flex-end;
 	}
 }
 

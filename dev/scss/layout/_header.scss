@@ -7,12 +7,17 @@ header {
     padding: 10px;
 
     #burger-container {
+        justify-content: flex-end;
         align-items: center;
         display: flex;
         padding: 10px;
+        
+        i{
+            color: $white;
+        }
 
         @include md {
-            display: none !important;
+            display: none;
         }
     }
 }
