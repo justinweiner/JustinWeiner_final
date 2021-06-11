@@ -367,7 +367,7 @@ ul li {
 
 main {
   display: grid;
-  grid-template-areas: "header" "schedule" "hero" "covidalert " "articles" "stats" "information " "footer ";
+  grid-template-areas: "header" "hero" "covidalert " "articles" "stats" "information " "footer ";
 }
 
 .header {
@@ -413,6 +413,7 @@ main {
 
 @media (min-width: 768px) {
   .section-3 {
+    margin: 0px 40px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
@@ -624,11 +625,6 @@ footer .social-icons a {
   padding: 10px;
 }
 
-.schedule {
-  background: chartreuse;
-  align-items: center;
-}
-
 .hero-img {
   background: url("../../../deploy/img/hero.jpg");
   background-size: cover;
@@ -773,9 +769,15 @@ footer .social-icons a {
   grid-column: span 2;
   margin: 40px 20px 20px 40px;
 }
+.information #sponsor {
+  display: none;
+}
 @media (min-width: 768px) {
   .information ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .information #sponsor {
+    display: grid;
   }
 }

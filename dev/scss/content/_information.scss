@@ -13,11 +13,17 @@
         grid-column: span 2;
         margin: 40px 20px 20px 40px;
     }
-    
+
+    #sponsor{
+        display: none;
+    }
     @include md{
         ul{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+        #sponsor{
+            display: grid;
         }
     }
 }
